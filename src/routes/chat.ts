@@ -1,7 +1,5 @@
 import express, { Request, Response } from "express";
-import OpenAI from "openai";
 import { addMessage, getHistory } from "../utils/data";
-import { ChatCompletionMessageParam } from "openai/resources/index";
 import dotenv from "dotenv";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
